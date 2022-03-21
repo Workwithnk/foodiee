@@ -36,7 +36,9 @@ const handleRandomMeal = async () => {
   for (let i = 1; i <= 20; i++) {
     ingredientArr.push(details[`strIngredient${i}`]);
   }
-  let filteredIngre = ingredientArr.filter((data) => data.length > 0);
+  let filteredIngre = ingredientArr.filter(
+    (data) => data.length > 0 || !data.length === null
+  );
   filteredIngre = filteredIngre.toString();
   ingrePara.innerHTML = `${filteredIngre}`;
 };
@@ -111,7 +113,9 @@ const getId = () => {
         for (let i = 1; i <= 20; i++) {
           ingredientArr.push(details[`strIngredient${i}`]);
         }
-        let filteredIngre = ingredientArr.filter((data) => data.length > 0);
+        let filteredIngre = ingredientArr.filter(
+          (data) => data.length > 0 || !data.length === null
+        );
         filteredIngre = filteredIngre.toString();
 
         // method of recipe
@@ -159,7 +163,10 @@ const getId = () => {
         let createBtn = document.createElement("button");
         createBtn.setAttribute("class", "video_closeBtn");
         createBtn.innerText = "X";
+
+        let removeModelCont = document.querySelectorAll(".modelCont");
         createBtn.addEventListener("click", () => {
+          removeModelCont.forEach((each) => each.remove());
           createModel.classList.add("close");
         });
         discriptionDiv.appendChild(createBtn);
