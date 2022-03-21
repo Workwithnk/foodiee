@@ -298,13 +298,13 @@ body {
     height: 43vh;
   }
   .randomMeal_name {
-    font-size: 4vw;
+    font-size: 5vw;
   }
   .randomMeal_Details h4 {
-    font-size: 2.5vw;
+    font-size: 3vw;
   }
   .randomMeal_Details p {
-    font-size: 2.1vw;
+    font-size: 2.5vw;
   }
   .randomMeal_Details button {
     font-size: 2.1vw;
@@ -384,6 +384,33 @@ body {
   .nav_links li {
     margin-right: 0%;
     margin-bottom: 10%;
+  }
+
+  .randomMeal_name {
+    font-size: 6vw;
+  }
+  .randomMeal_Details h4 {
+    font-size: 4vw;
+  }
+  .randomMeal_Details p {
+    font-size: 3.1vw;
+  }
+
+  .category_header h1 {
+    font-size: 6vw;
+  }
+  .category_data h3 {
+    font-size: 15px;
+    margin-bottom: 10%;
+  }
+  .video_title {
+    font-size: 6vw;
+  }
+  .video_titlePara {
+    font-size: 4vw;
+  }
+  .video_ingre {
+    font-size: 3.2vw;
   }
   .open {
     display: flex;
