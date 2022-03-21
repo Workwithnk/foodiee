@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./Image/logoBlack.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka&family=Raleway:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+    />
+    <title>Foodiee</title>
+    <link rel="Stylesheet" href="./Styles/Index.css" />
+  </head>
+  <body>
+    <!-- navBar  -->
+    <nav id="nav">
+      <a class="nav_title" href="#">
+        <img src="./Image/logoWhite.png" alt="Foodie logo" />
+        <h1>Foodiee</h1>
+      </a>
+      <ul class="nav_links">
+        <li><a href="#" class="activeLink navLinks">HOME</a></li>
+        <li><a href="#categories" class="navLinks">CATEGORIES</a></li>
+      </ul>
+      <div class="nav_icons">
+        <i class="fa-solid fa-bars menuIcon"></i>
+      </div>
+    </nav>
+    <main id="mainContainer">
+      <section id="randomMealCon">
+        <div class="randomMeal_Ifram_container">
+          <iframe class="randomMeal_Ifram" allowfullscreen></iframe>
+        </div>
+        <div class="randomMeal_Details">
+          <h1 class="randomMeal_name"></h1>
+          <h4>Ingredient :</h4>
+          <p class="ingrePara"></p>
+          <h4>Instructions :</h4>
+          <p class="randomMeal_method"></p>
+          <button onclick="handleRandomMeal()">Next Random</button>
+        </div>
+      </section>
+      <section id="categories">
+        <div class="category"></div>
+      </section>
+    </main>
+  </body>
+  <script src="./JS/index.js"></script>
+</html>
