@@ -412,6 +412,12 @@ body {
   .video_ingre {
     font-size: 3.2vw;
   }
+   .video_titleOfdesInst {
+    font-size: 4vw;
+  }
+  .video_inst {
+    font-size: 3.2vw;
+  }
   .open {
     display: flex;
   }
