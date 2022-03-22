@@ -289,16 +289,17 @@ body {
     justify-content: center;
   }
   .modelCont_video {
-    width: 90%;
+    width: 100%;
     height: 50vh;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 0px;
   }
   .modelCont_video_discription {
-    width: 86%;
+    width: 96%;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 10px;
+    height: 50vh;
   }
   .video_title {
     font-size: 4vw;
@@ -317,7 +318,7 @@ body {
   }
   .video_closeBtn {
     right: 1%;
-    top: 8%;
+    top: 6%;
     background-color: #e74c3c;
     border-radius: 21%;
   }
