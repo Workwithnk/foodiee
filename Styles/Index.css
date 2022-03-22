@@ -129,6 +129,7 @@ body {
   border-radius: 3px;
   cursor: pointer;
   background-color: #4cd137;
+  text-align: center;
 }
 
 /* category */
@@ -307,7 +308,7 @@ body {
     font-size: 2.5vw;
   }
   .randomMeal_Details button {
-    font-size: 2.1vw;
+    font-size: 3vw;
   }
   .category_header h1 {
     font-size: 5vw;
@@ -370,6 +371,7 @@ body {
     color: #fff;
     font-size: 5vw;
     z-index: 999;
+    cursor: pointer;
   }
   .nav_links {
     position: fixed;
@@ -412,7 +414,7 @@ body {
   .video_ingre {
     font-size: 3.2vw;
   }
-   .video_titleOfdesInst {
+  .video_titleOfdesInst {
     font-size: 4vw;
   }
   .video_inst {
