@@ -37,7 +37,7 @@ const handleRandomMeal = async () => {
     ingredientArr.push(details[`strIngredient${i}`]);
   }
   let filteredIngre = ingredientArr.filter(
-    (data) => data.length > 0 && data.length !== null
+    (data) => data.length > 1 && data !== null
   );
   filteredIngre = filteredIngre.toString();
   ingrePara.innerHTML = `${filteredIngre}`;
@@ -114,7 +114,7 @@ const getId = () => {
           ingredientArr.push(details[`strIngredient${i}`]);
         }
         let filteredIngre = ingredientArr.filter(
-          (data) => data.length > 0 && data.length !== null
+          (data) => data.length > 1 && data !== null
         );
         filteredIngre = filteredIngre.toString();
 
@@ -177,7 +177,7 @@ const getId = () => {
         createModel.appendChild(dataCon);
       });
     });
-  }, 600);
+  }, 2000);
 };
 
 getId();
