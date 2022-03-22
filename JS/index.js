@@ -177,7 +177,7 @@ const getId = () => {
         createModel.appendChild(dataCon);
       });
     });
-  }, 1000);
+  }, 600);
 };
 
 getId();
